@@ -1,13 +1,46 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import StatsSection from "@/components/StatsSection";
+import PortfolioSection from "@/components/PortfolioSection";
+import MarqueeSection from "@/components/MarqueeSection";
+import PersonalitySection from "@/components/PersonalitySection";
+import AvailabilitySection from "@/components/AvailabilitySection";
+import ContactSection from "@/components/ContactSection";
+
+const skills = [
+  "Physical Fitness & Body Control",
+  "Camera Confidence",
+  "Adaptive Posing",
+  "Professional Work Ethic",
+];
+
+const hobbies = [
+  "Gym & Fitness",
+  "Knowledge Sharing",
+  "Fashion Trends",
+  "Lifestyle Exploration",
+];
+
+const interests = [
+  "Fitness Modeling",
+  "Lifestyle Modeling",
+  "Streetwear Modeling",
+];
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen bg-background">
+      <HeroSection />
+      <AboutSection />
+      <StatsSection />
+      <PortfolioSection />
+      <MarqueeSection items={skills} label="Skills" />
+      <PersonalitySection />
+      <MarqueeSection items={interests} label="Modeling Interests" />
+      <MarqueeSection items={hobbies} label="Hobbies & Interests" />
+      <AvailabilitySection />
+      <ContactSection />
+    </main>
   );
 };
 
