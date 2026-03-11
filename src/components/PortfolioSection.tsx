@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import p1 from "@/assets/portfolio-1.jpg";
-import p2 from "@/assets/portfolio-2.jpg";
-import p3 from "@/assets/portfolio-3.jpg";
-import p4 from "@/assets/portfolio-4.jpg";
-import p5 from "@/assets/portfolio-5.jpg";
-import p6 from "@/assets/portfolio-6.jpg";
+import p1 from "@/assets/portfolio-1.jpeg";
+import p2 from "@/assets/portfolio-2.jpeg";
+import p3 from "@/assets/portfolio-3.jpeg";
+import p4 from "@/assets/portfolio-4.jpeg";
+import p5 from "@/assets/portfolio-5.jpeg";
+import p6 from "@/assets/portfolio-6.jpeg";
 
 const images = [
   { src: p1, alt: "Fitness editorial", category: "FITNESS" },
