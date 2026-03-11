@@ -11,6 +11,15 @@ import p9 from "@/assets/portfolio-9.jpeg";
 import p10 from "@/assets/portfolio-10.jpeg";
 import p11 from "@/assets/portfolio-11.jpeg";
 import p12 from "@/assets/portfolio-12.png";
+import p13 from "@/assets/portfolio-13.jpeg";
+import p14 from "@/assets/portfolio-14.jpeg";
+import p15 from "@/assets/portfolio-15.jpeg";
+import p16 from "@/assets/portfolio-16.png";
+import p17 from "@/assets/portfolio-17.png";
+import p18 from "@/assets/portfolio-18.jpeg";
+import p19 from "@/assets/portfolio-19.jpeg";
+import p20 from "@/assets/portfolio-20.jpeg";
+// import p12 from "@/assets/portfolio-12.png";
 
 
 const images = [
@@ -26,6 +35,14 @@ const images = [
   { src: p10, alt: "Studio fitness portrait", category: "FITNESS" },
   { src: p11, alt: "Streetwear brutalist", category: "STREETWEAR" },
   { src: p12, alt: "Portrait editorial", category: "LIFESTYLE" },
+  { src: p13, alt: "Streetwear brutalist", category: "STREETWEAR" },
+  { src: p14, alt: "Portrait editorial", category: "LIFESTYLE" },
+  { src: p15, alt: "Fitness editorial", category: "FITNESS" },
+  { src: p16, alt: "Streetwear night shoot", category: "STREETWEAR" },
+  { src: p17, alt: "Lifestyle rooftop", category: "LIFESTYLE" },
+  { src: p18, alt: "Studio fitness portrait", category: "FITNESS" },
+  { src: p19, alt: "Streetwear brutalist", category: "STREETWEAR" },
+  { src: p20, alt: "Portrait editorial", category: "LIFESTYLE" },
 ];
 
 const PortfolioSection = () => {
