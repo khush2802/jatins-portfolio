@@ -5,7 +5,7 @@ import p3 from "@/assets/portfolio-3.jpeg";
 import p4 from "@/assets/portfolio-4.jpeg";
 import p5 from "@/assets/portfolio-5.jpeg";
 import p6 from "@/assets/portfolio-6.jpeg";
-import p7 from "@/assets/portfolio-7.png";
+import p7 from "@/assets/portfolio-7.jpeg";
 import p8 from "@/assets/portfolio-8.png";
 import p9 from "@/assets/portfolio-9.jpeg";
 import p10 from "@/assets/portfolio-10.jpeg";
