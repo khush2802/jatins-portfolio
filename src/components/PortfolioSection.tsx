@@ -18,7 +18,7 @@ import p16 from "@/assets/portfolio-16.jpeg";
 import p17 from "@/assets/portfolio-17.jpeg";
 import p18 from "@/assets/portfolio-18.jpeg";
 import p19 from "@/assets/portfolio-19.jpeg";
-import p20 from "@/assets/portfolio-20.jpeg";
+// import p20 from "@/assets/portfolio-20.jpeg";
 // import p12 from "@/assets/portfolio-12.png";
 
 
@@ -42,7 +42,7 @@ const images = [
   { src: p17, alt: "Lifestyle rooftop", category: "LIFESTYLE" },
   { src: p18, alt: "Studio fitness portrait", category: "FITNESS" },
   { src: p19, alt: "Streetwear brutalist", category: "STREETWEAR" },
-  { src: p20, alt: "Portrait editorial", category: "LIFESTYLE" },
+  
 ];
 
 const PortfolioSection = () => {
