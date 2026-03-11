@@ -13,6 +13,12 @@ const images = [
   { src: p4, alt: "Studio fitness portrait", category: "FITNESS" },
   { src: p5, alt: "Streetwear brutalist", category: "STREETWEAR" },
   { src: p6, alt: "Portrait editorial", category: "LIFESTYLE" },
+  { src: p1, alt: "Fitness editorial", category: "FITNESS" },
+  { src: p2, alt: "Streetwear night shoot", category: "STREETWEAR" },
+  { src: p3, alt: "Lifestyle rooftop", category: "LIFESTYLE" },
+  { src: p4, alt: "Studio fitness portrait", category: "FITNESS" },
+  { src: p5, alt: "Streetwear brutalist", category: "STREETWEAR" },
+  { src: p6, alt: "Portrait editorial", category: "LIFESTYLE" },
 ];
 
 const PortfolioSection = () => {
